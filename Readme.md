@@ -1,7 +1,14 @@
-# Game Boy Color Test Images
+# Game Boy Color Bar and Wheel Test Images
 
-The first 2 horizontal color bar patterns (RGB, CMYK) have exactly 32 colors in their gradients. If any of the colors are missing or mis-aligned to the grey reference blocks it means the color depth on the screen or emulation may not be accurate or is getting clipped in some way.
+The first two color bar patterns (RGB, CMYK) have exactly 32 colors in each horizontal gradient. 
+- For some screens, such as OEM non-backlit GBC, it may be difficult to distinguish between adjacent color gradations.
+- If colors are missing or mis-aligned to the grey reference blocks the screen or emulation color depth may not be accurate or may be clipped.
+- Some emulators may shift the rendered GBC colors up or down a value before displaying.
 
-Note: Some emulators may shift GBC color values up or down a value before displaying, or slightly clip the range for the 32 color bar images. This does not happen on OEM hardware.
+## Screenshots
+
+![Screenshot](info/ap_oem_gbbc_colorbars_sm.jpg)
+![Screenshot](info/ap_oem_gbbc_colorwheel_sm.jpg)
+
 
 Built with GBDK
