@@ -1,0 +1,11 @@
+obj/
+work/
+notes/
+archived_builds/
+build/
+bin/
+!res/source_audio/*.sav
+*.ini
+package/
+itch.io/
+*.sublime*
